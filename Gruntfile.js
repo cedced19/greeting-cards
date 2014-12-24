@@ -12,7 +12,7 @@ module.exports = function(grunt) {
               },
               files: {
                 'index.html': 'index.html',
-                'carbs.html': 'cards.html'
+                'cards.html': 'cards.html'
               }
           }
     },
@@ -29,7 +29,7 @@ module.exports = function(grunt) {
           files:[
              {
               dest: 'scripts/scripts.js',
-              src: ['dev/scripts/angular.min.js', 'dev/scripts/angular-cookies.min.js', 'dev/scripts/app.js']
+              src: ['dev/scripts/angular.min.js', 'dev/scripts/angular-cookies.min.js', 'dev/scripts/main.js']
               }
              ]
         }
@@ -42,8 +42,8 @@ module.exports = function(grunt) {
                     src: [ 'scripts/scripts.js' ]
                   },
                   {
-                    dest: 'scripts/canvas.min.js',
-                    src: [ 'dev/scripts/canvas.js' ]
+                    dest: 'scripts/cards.min.js',
+                    src: [ 'dev/scripts/cards.js' ]
                   }
                ]
              }

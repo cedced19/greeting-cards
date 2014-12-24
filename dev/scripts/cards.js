@@ -1,9 +1,12 @@
+var message = window.location.hash.replace('#', '').replace(/%20/g, ' ').replace(/%C3%AB/g, 'ë');
+document.getElementById('message').textContent = message;
+
 var canvas = document.getElementById('hearth');
 var context = canvas.getContext('2d');
 
 context.translate(100,100);
 
-context.strokeStyle = '#FF0000'; // rouge, évidemment
+context.strokeStyle = '#FF0000';
 context.lineWidth = 5;
 
 context.beginPath();

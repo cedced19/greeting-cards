@@ -19,7 +19,8 @@
                 <h3>Sentence</h3>
                 <input type="text" ng-keyup="compile()" ng-model="config.sentence">
                 <h3>Result</h3>
-                <pre>{{result}}</pre> 
+                <pre>{{result}}</pre>
+                <a ng-hide="result == ''" href="{{result}}" class="btn"  target="_blank">Preview</a>
             </main>
             <footer class="animate">
                 <hr>
@@ -33,7 +34,7 @@
             <!-- build:js scripts/scripts.js -->
             <script type="text/javascript" src="scripts/angular.min.js"></script>
             <script type="text/javascript" src="scripts/angular-cookies.min.js"></script>
-            <script type="text/javascript" src="scripts/app.js"></script>
+            <script type="text/javascript" src="scripts/main.js"></script>
             <!-- endbuild -->
     </body>
 </html>

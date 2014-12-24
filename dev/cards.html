@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title></title>
+        <meta name="viewport" content="width=device-width">
+        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <!-- build:css styles/cards.min.css -->
+        <link rel="stylesheet" href="styles/cards.css">
+        <!-- endbuild -->
+    </head>
+    <body ng-app="GreetingCards" ng-controller="GreetingCardsResultsCtrl">
+            
+             <header class="island">
+                <div class="wrap animate">
+                    <h1 class="mega title" >{{sentence}}</h1>
+                     <canvas id="hearth" width="300px" height="300px">
+                </div>
+            </header>
+
+            <!-- build:js scripts/scripts.js -->
+            <script type="text/javascript" src="scripts/angular.min.js"></script>
+            <script type="text/javascript" src="scripts/angular-cookies.min.js"></script>
+            <script type="text/javascript" src="scripts/app.js"></script>
+            <!-- endbuild -->
+            <!-- build:js scripts/canvas.min.js -->
+            <script type="text/javascript" src="scripts/canvas.js"></script>
+            <!-- endbuild -->
+    </body>
+</html>

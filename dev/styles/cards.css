@@ -6,49 +6,6 @@
   -moz-box-sizing:border-box;
   box-sizing:border-box
 }
-button,input,select,textarea {
-  -webkit-appearance:none;
-  -moz-appearance:none;
-  appearance:none
-}
-.alpha,h1 {
-  margin-bottom:1.5rem;
-  font-size:3rem;
-  font-weight:100;
-  line-height:1;
-  letter-spacing:-.05em
-}
-.beta,h2 {
-  margin-bottom:.75rem;
-  font-weight:400;
-  font-size:1.5rem;
-  line-height:1
-}
-@media (min-width:650px) {
-  .mega {
-    font-size:6rem;
-    line-height:1
-  }
-}
-.meta,.subhead {
-  color:#7b8993
-}
-.promo {
-  text-align:center
-}
-.wrap {
-  max-width:38rem;
-  margin:0 auto
-}
-.island {
-  padding:1.5rem
-}
-.isle {
-  padding:.75rem
-}
-.spit {
-  padding:.375rem
-}
 html {
   font:100%/1.5 Roboto,Verdana,sans-serif;
   color:red;
@@ -78,6 +35,28 @@ html {
 ::selection {
   color:#FFF;
   background:#FF0000;
+}
+button,input,select,textarea {
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none
+}
+h1 {
+  margin-bottom:1.5rem;
+  font-size:3rem;
+  font-weight:100;
+  line-height:1;
+  letter-spacing:-.05em
+}
+@media (min-width:650px) {
+  h1 {
+    font-size:6rem;
+    line-height:1
+  }
+}
+.wrap {
+  max-width:38rem;
+  margin:0 auto
 }
 @font-face {
   font-family:Roboto;

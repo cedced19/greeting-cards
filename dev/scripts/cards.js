@@ -1,4 +1,4 @@
-var message = window.location.hash.replace('#', '').replace(/%20/g, ' ').replace(/%C3%AB/g, 'ë');
+var message = window.location.hash.replace('#', '').replace(/%20/g, ' ').replace(/%21/g, '!').replace(/%C3%AB/g, 'ë');
 document.getElementById('message').textContent = message;
 document.title = 'Greeting Cards - ' + message;
 

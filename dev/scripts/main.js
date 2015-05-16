@@ -9,7 +9,7 @@ angular.module('GreetingCards', ['ngCookies'])
             
         $scope.compile = function(){
             $cookieStore.put('sentence', $scope.config.sentence);
-            $scope.result = $scope.config.uri + $scope.config.sentence.replace(/ /g, '%20').replace(/ë/g, '%C3%AB');
+            $scope.result = $scope.config.uri + $scope.config.sentence.replace(/ /g, '%20').replace(/ë/g, '%C3%AB').replace(/!/g, '%21');
         }
        
         if($cookieStore.get('sentence') != undefined){
